@@ -23,9 +23,10 @@ Thực hiện các bước sau để thiết lập dự án:
    ```
 
 3. **Cấu Hình Dự Án**
-   - Lấy apiKey stripe tại 
    - Tạo file index.php ( File này là giao diện hiển thị )
    - Tạo file checkout.php ( File này để xử lý request )
+   - Tạo file success.php ( File này để xử lý lúc stripe thanh toán thành công và chuyển hướng về )
+   - Tạo file cancel.php ( File này để xử lý lúc stripe thanh toán KHÔNG thành công và chuyển hướng về )
 
 4. **Logic tại checkout.php**
   - Khai báo success_url: $base_url.'/success.php?session_id={CHECKOUT_SESSION_ID}' (stripe sẽ chuyển hướng url này khi thành công, CHECKOUT_SESSION_ID để stripe truyền về giá trị )
