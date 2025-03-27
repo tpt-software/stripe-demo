@@ -10,7 +10,7 @@ Thực hiện các bước sau để thiết lập dự án:
    - Đăng ký tài khoản stripe
    - Vào trang https://dashboard.stripe.com/test/apikeys
    - Bật chế độ TEST MODE
-   - Lấy Secret key
+   - Lấy Secret key ( key có tiền tố: sk_test_ )
 
 2. **Cài Đặt Các Thư Viện Phụ Thuộc**
    Đảm bảo bạn đã cài đặt [Composer](https://getcomposer.org/).
